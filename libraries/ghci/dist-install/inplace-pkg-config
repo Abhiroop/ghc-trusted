@@ -1,0 +1,39 @@
+name:                 ghci
+version:              8.8.2
+visibility:           public
+id:                   ghci-8.8.2
+key:                  ghci-8.8.2
+license:              BSD-3-Clause
+maintainer:           ghc-devs@haskell.org
+synopsis:             The library supporting GHC's interactive interpreter
+description:
+    This library offers interfaces which mediate interactions between the
+    @ghci@ interactive shell and @iserv@, GHC's out-of-process interpreter
+    backend.
+
+category:             GHC
+abi:                  inplace
+exposed:              True
+exposed-modules:
+    GHCi.BinaryArray GHCi.BreakArray GHCi.CreateBCO GHCi.FFI
+    GHCi.InfoTable GHCi.Message GHCi.ObjLink GHCi.RemoteTypes
+    GHCi.ResolvedBCO GHCi.Run GHCi.Signals GHCi.StaticPtrTable GHCi.TH
+    GHCi.TH.Binary SizedSeq
+
+import-dirs:          /home/abhir00p/ghc-8.8.2/libraries/ghci/dist-install/build
+library-dirs:         /home/abhir00p/ghc-8.8.2/libraries/ghci/dist-install/build
+dynamic-library-dirs: /home/abhir00p/ghc-8.8.2/libraries/ghci/dist-install/build
+data-dir:             /home/abhir00p/ghc-8.8.2/libraries/ghci
+hs-libraries:         HSghci-8.8.2
+depends:
+    array-0.5.4.0 base-4.13.0.0 binary-0.8.7.0 bytestring-0.10.10.0
+    containers-0.6.2.1 deepseq-1.4.4.0 filepath-1.4.2.1 ghc-boot-8.8.2
+    ghc-boot-th-8.8.2 ghc-heap-8.8.2 template-haskell-2.15.0.0
+    transformers-0.5.6.2 unix-2.7.2.2
+
+haddock-interfaces:
+    /home/abhir00p/ghc-8.8.2/libraries/ghci/dist-install/doc/html/ghci/ghci.haddock
+
+haddock-html:
+    /home/abhir00p/ghc-8.8.2/libraries/ghci/dist-install/doc/html/ghci
+

@@ -1,0 +1,11 @@
+prefix=/home/abhir00p/ghc-8.8.2/libffi/build/inst
+exec_prefix=${prefix}
+libdir=/home/abhir00p/ghc-8.8.2/libffi/build/inst/lib
+toolexeclibdir=/home/abhir00p/ghc-8.8.2/libffi/build/inst/lib/../lib
+includedir=${prefix}/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.99999
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

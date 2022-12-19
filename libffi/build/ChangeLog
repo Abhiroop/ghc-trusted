@@ -1,0 +1,5 @@
+commit 77e130c1e2f2879ffe9b7add0873101c50208d1a
+Author: Ben Gamari <ben@smart-cactus.org>
+Date:   Mon Oct 2 09:45:05 2017 -0400
+
+    Ensure libffi.map is generated

@@ -1,0 +1,4 @@
+@set UPDATED 2 October 2017
+@set UPDATED-MONTH October 2017
+@set EDITION 3.99999
+@set VERSION 3.99999

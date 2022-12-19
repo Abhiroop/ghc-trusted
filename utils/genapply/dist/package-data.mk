@@ -1,0 +1,34 @@
+utils/genapply_dist_VERSION = 0.1
+utils/genapply_dist_COMPONENT_ID = genapply-0.1
+utils/genapply_dist_MODULES = Main
+utils/genapply_dist_HIDDEN_MODULES = 
+utils/genapply_dist_SYNOPSIS =Generate the application closures
+utils/genapply_dist_HS_SRC_DIRS = .
+utils/genapply_dist_DEPS = base-4.12.0.0 pretty-1.1.3.6
+utils/genapply_dist_DEP_IPIDS = base-4.12.0.0 pretty-1.1.3.6
+utils/genapply_dist_DEP_NAMES = base pretty
+utils/genapply_dist_DEP_COMPONENT_IDS = base-4.12.0.0 pretty-1.1.3.6
+utils/genapply_dist_TRANSITIVE_DEP_NAMES = pretty deepseq array base integer-gmp ghc-prim rts
+utils/genapply_dist_TRANSITIVE_DEP_COMPONENT_IDS = pretty-1.1.3.6 deepseq-1.4.4.0 array-0.5.3.0 base-4.12.0.0 integer-gmp-1.0.2.0 ghc-prim-0.5.3 rts
+utils/genapply_dist_INCLUDE_DIRS = 
+utils/genapply_dist_INCLUDES = 
+utils/genapply_dist_INSTALL_INCLUDES = 
+utils/genapply_dist_EXTRA_LIBRARIES = 
+utils/genapply_dist_EXTRA_LIBDIRS = 
+utils/genapply_dist_S_SRCS = 
+utils/genapply_dist_C_SRCS  = 
+utils/genapply_dist_CMM_SRCS = 
+utils/genapply_dist_DATA_FILES = 
+utils/genapply_dist_HC_OPTS = -XHaskell2010
+utils/genapply_dist_CC_OPTS = 
+utils/genapply_dist_CPP_OPTS = 
+utils/genapply_dist_LD_OPTS = 
+utils/genapply_dist_DEP_INCLUDE_DIRS_SINGLE_QUOTED = '/usr/lib/ghc/base-4.12.0.0/include' '/usr/lib/ghc/base-4.12.0.0/dist-install/build/include' '/usr/lib/ghc/integer-gmp-1.0.2.0/include' '/usr/lib/ghc/integer-gmp-1.0.2.0/dist-install/build/include' '/usr/lib/ghc/include' '/usr/lib/ghc/dist-install/build/include'
+utils/genapply_dist_DEP_CC_OPTS = 
+utils/genapply_dist_DEP_LIB_DIRS_SEARCHPATH = /usr/lib/ghc/pretty-1.1.3.6:/usr/lib/ghc/deepseq-1.4.4.0:/usr/lib/ghc/array-0.5.3.0:/usr/lib/ghc/base-4.12.0.0:/usr/lib/ghc/integer-gmp-1.0.2.0:/usr/lib/ghc/ghc-prim-0.5.3:/usr/lib/ghc/rts
+utils/genapply_dist_DEP_LIB_REL_DIRS = libraries/pretty/dist-install/build libraries/deepseq/dist-install/build libraries/array/dist-install/build libraries/base/dist-install/build libraries/integer-gmp/dist-install/build libraries/ghc-prim/dist-install/build rts/dist/build
+utils/genapply_dist_DEP_LIB_REL_DIRS_SEARCHPATH = libraries/pretty/dist-install/build:libraries/deepseq/dist-install/build:libraries/array/dist-install/build:libraries/base/dist-install/build:libraries/integer-gmp/dist-install/build:libraries/ghc-prim/dist-install/build:rts/dist/build
+utils/genapply_dist_DEP_LD_OPTS = 
+utils/genapply_dist_BUILD_GHCI_LIB = NO
+
+$(eval $(utils/genapply_PACKAGE_MAGIC))

@@ -1,0 +1,34 @@
+libraries/ghc-boot-th_dist-boot_VERSION = 8.8.2
+libraries/ghc-boot-th_dist-boot_COMPONENT_ID = ghc-boot-th-8.8.2
+libraries/ghc-boot-th_dist-boot_MODULES = GHC.LanguageExtensions.Type GHC.ForeignSrcLang.Type GHC.Lexeme
+libraries/ghc-boot-th_dist-boot_HIDDEN_MODULES = 
+libraries/ghc-boot-th_dist-boot_SYNOPSIS =Shared functionality between GHC and the @template-haskell@ library
+libraries/ghc-boot-th_dist-boot_HS_SRC_DIRS = .
+libraries/ghc-boot-th_dist-boot_DEPS = base-4.12.0.0
+libraries/ghc-boot-th_dist-boot_DEP_IPIDS = base-4.12.0.0
+libraries/ghc-boot-th_dist-boot_DEP_NAMES = base
+libraries/ghc-boot-th_dist-boot_DEP_COMPONENT_IDS = base-4.12.0.0
+libraries/ghc-boot-th_dist-boot_TRANSITIVE_DEP_NAMES = base integer-gmp ghc-prim rts
+libraries/ghc-boot-th_dist-boot_TRANSITIVE_DEP_COMPONENT_IDS = base-4.12.0.0 integer-gmp-1.0.2.0 ghc-prim-0.5.3 rts
+libraries/ghc-boot-th_dist-boot_INCLUDE_DIRS = 
+libraries/ghc-boot-th_dist-boot_INCLUDES = 
+libraries/ghc-boot-th_dist-boot_INSTALL_INCLUDES = 
+libraries/ghc-boot-th_dist-boot_EXTRA_LIBRARIES = 
+libraries/ghc-boot-th_dist-boot_EXTRA_LIBDIRS = 
+libraries/ghc-boot-th_dist-boot_S_SRCS = 
+libraries/ghc-boot-th_dist-boot_C_SRCS  = 
+libraries/ghc-boot-th_dist-boot_CMM_SRCS = 
+libraries/ghc-boot-th_dist-boot_DATA_FILES = 
+libraries/ghc-boot-th_dist-boot_HC_OPTS = -XHaskell2010 -XNoImplicitPrelude
+libraries/ghc-boot-th_dist-boot_CC_OPTS = 
+libraries/ghc-boot-th_dist-boot_CPP_OPTS = 
+libraries/ghc-boot-th_dist-boot_LD_OPTS = 
+libraries/ghc-boot-th_dist-boot_DEP_INCLUDE_DIRS_SINGLE_QUOTED = '/usr/lib/ghc/base-4.12.0.0/include' '/usr/lib/ghc/base-4.12.0.0/dist-install/build/include' '/usr/lib/ghc/integer-gmp-1.0.2.0/include' '/usr/lib/ghc/integer-gmp-1.0.2.0/dist-install/build/include' '/usr/lib/ghc/include' '/usr/lib/ghc/dist-install/build/include'
+libraries/ghc-boot-th_dist-boot_DEP_CC_OPTS = 
+libraries/ghc-boot-th_dist-boot_DEP_LIB_DIRS_SEARCHPATH = /usr/lib/ghc/base-4.12.0.0:/usr/lib/ghc/integer-gmp-1.0.2.0:/usr/lib/ghc/ghc-prim-0.5.3:/usr/lib/ghc/rts
+libraries/ghc-boot-th_dist-boot_DEP_LIB_REL_DIRS = libraries/base/dist-install/build libraries/integer-gmp/dist-install/build libraries/ghc-prim/dist-install/build rts/dist/build
+libraries/ghc-boot-th_dist-boot_DEP_LIB_REL_DIRS_SEARCHPATH = libraries/base/dist-install/build:libraries/integer-gmp/dist-install/build:libraries/ghc-prim/dist-install/build:rts/dist/build
+libraries/ghc-boot-th_dist-boot_DEP_LD_OPTS = 
+libraries/ghc-boot-th_dist-boot_BUILD_GHCI_LIB = YES
+
+$(eval $(libraries/ghc-boot-th_PACKAGE_MAGIC))

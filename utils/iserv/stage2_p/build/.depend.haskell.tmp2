@@ -1,0 +1,15 @@
+# DO NOT DELETE: Beginning of Haskell dependencies
+utils/iserv/stage2_p/build/Main.p_o : utils/iserv/src/Main.hs
+utils/iserv/stage2_p/build/Main.p_o : libraries/base/dist-install/build/Prelude.p_hi
+utils/iserv/stage2_p/build/Main.p_o : libraries/base/dist-install/build/Text/Printf.p_hi
+utils/iserv/stage2_p/build/Main.p_o : libraries/base/dist-install/build/System/Exit.p_hi
+utils/iserv/stage2_p/build/Main.p_o : libraries/base/dist-install/build/System/Environment.p_hi
+utils/iserv/stage2_p/build/Main.p_o : libraries/base/dist-install/build/Data/IORef.p_hi
+utils/iserv/stage2_p/build/Main.p_o : libraries/base/dist-install/build/Control/Monad.p_hi
+utils/iserv/stage2_p/build/Main.p_o : libraries/base/dist-install/build/Control/Exception.p_hi
+utils/iserv/stage2_p/build/Main.p_o : libraries/libiserv/dist-install/build/GHCi/Utils.p_hi
+utils/iserv/stage2_p/build/Main.p_o : libraries/ghci/dist-install/build/GHCi/Signals.p_hi
+utils/iserv/stage2_p/build/Main.p_o : libraries/ghci/dist-install/build/GHCi/Message.p_hi
+utils/iserv/stage2_p/build/Main.p_o : libraries/libiserv/dist-install/build/Lib.p_hi
+# DO NOT DELETE: End of Haskell dependencies
+utils/iserv_stage2_p_depfile_haskell_EXISTS = YES

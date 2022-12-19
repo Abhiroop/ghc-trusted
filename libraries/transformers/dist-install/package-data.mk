@@ -1,0 +1,34 @@
+libraries/transformers_dist-install_VERSION = 0.5.6.2
+libraries/transformers_dist-install_COMPONENT_ID = transformers-0.5.6.2
+libraries/transformers_dist-install_MODULES = Control.Applicative.Backwards Control.Applicative.Lift Control.Monad.Signatures Control.Monad.Trans.Accum Control.Monad.Trans.Class Control.Monad.Trans.Cont Control.Monad.Trans.Except Control.Monad.Trans.Error Control.Monad.Trans.Identity Control.Monad.Trans.List Control.Monad.Trans.Maybe Control.Monad.Trans.Reader Control.Monad.Trans.RWS Control.Monad.Trans.RWS.CPS Control.Monad.Trans.RWS.Lazy Control.Monad.Trans.RWS.Strict Control.Monad.Trans.Select Control.Monad.Trans.State Control.Monad.Trans.State.Lazy Control.Monad.Trans.State.Strict Control.Monad.Trans.Writer Control.Monad.Trans.Writer.CPS Control.Monad.Trans.Writer.Lazy Control.Monad.Trans.Writer.Strict Data.Functor.Constant Data.Functor.Reverse
+libraries/transformers_dist-install_HIDDEN_MODULES = 
+libraries/transformers_dist-install_SYNOPSIS =Concrete functor and monad transformers
+libraries/transformers_dist-install_HS_SRC_DIRS = .
+libraries/transformers_dist-install_DEPS = base-4.13.0.0
+libraries/transformers_dist-install_DEP_IPIDS = base-4.13.0.0
+libraries/transformers_dist-install_DEP_NAMES = base
+libraries/transformers_dist-install_DEP_COMPONENT_IDS = base-4.13.0.0
+libraries/transformers_dist-install_TRANSITIVE_DEP_NAMES = base integer-gmp ghc-prim rts
+libraries/transformers_dist-install_TRANSITIVE_DEP_COMPONENT_IDS = base-4.13.0.0 integer-gmp-1.0.2.0 ghc-prim-0.5.3 rts
+libraries/transformers_dist-install_INCLUDE_DIRS = 
+libraries/transformers_dist-install_INCLUDES = 
+libraries/transformers_dist-install_INSTALL_INCLUDES = 
+libraries/transformers_dist-install_EXTRA_LIBRARIES = 
+libraries/transformers_dist-install_EXTRA_LIBDIRS = 
+libraries/transformers_dist-install_S_SRCS = 
+libraries/transformers_dist-install_C_SRCS  = 
+libraries/transformers_dist-install_CMM_SRCS = 
+libraries/transformers_dist-install_DATA_FILES = 
+libraries/transformers_dist-install_HC_OPTS = -XHaskell98
+libraries/transformers_dist-install_CC_OPTS = 
+libraries/transformers_dist-install_CPP_OPTS = 
+libraries/transformers_dist-install_LD_OPTS = 
+libraries/transformers_dist-install_DEP_INCLUDE_DIRS_SINGLE_QUOTED = '/home/abhir00p/ghc-8.8.2/libraries/base/include' '/home/abhir00p/ghc-8.8.2/libraries/base/dist-install/build/include' '/home/abhir00p/ghc-8.8.2/libraries/base/dist-install/build/include' '/home/abhir00p/ghc-8.8.2/libraries/base/dist-install/build/dist-install/build/include' '/home/abhir00p/ghc-8.8.2/libraries/base/dist-install/build/include' '/home/abhir00p/ghc-8.8.2/libraries/base/dist-install/build/dist-install/build/include' '/home/abhir00p/ghc-8.8.2/libraries/base/dist-install/build/dist-install/build/include' '/home/abhir00p/ghc-8.8.2/libraries/base/dist-install/build/dist-install/build/dist-install/build/include' '/home/abhir00p/ghc-8.8.2/libraries/integer-gmp/include' '/home/abhir00p/ghc-8.8.2/libraries/integer-gmp/dist-install/build/include' '/home/abhir00p/ghc-8.8.2/libraries/integer-gmp/dist-install/build/include' '/home/abhir00p/ghc-8.8.2/libraries/integer-gmp/dist-install/build/dist-install/build/include' '/home/abhir00p/ghc-8.8.2/libraries/integer-gmp/dist-install/build/include' '/home/abhir00p/ghc-8.8.2/libraries/integer-gmp/dist-install/build/dist-install/build/include' '/home/abhir00p/ghc-8.8.2/libraries/integer-gmp/dist-install/build/dist-install/build/include' '/home/abhir00p/ghc-8.8.2/libraries/integer-gmp/dist-install/build/dist-install/build/dist-install/build/include' '/home/abhir00p/ghc-8.8.2/rts/dist/build' '/home/abhir00p/ghc-8.8.2/includes' '/home/abhir00p/ghc-8.8.2/includes/dist-derivedconstants/header'
+libraries/transformers_dist-install_DEP_CC_OPTS = 
+libraries/transformers_dist-install_DEP_LIB_DIRS_SEARCHPATH = /home/abhir00p/ghc-8.8.2/libraries/base/dist-install/build:/home/abhir00p/ghc-8.8.2/libraries/integer-gmp/dist-install/build:/home/abhir00p/ghc-8.8.2/libraries/ghc-prim/dist-install/build:/home/abhir00p/ghc-8.8.2/rts/dist/build
+libraries/transformers_dist-install_DEP_LIB_REL_DIRS = libraries/base/dist-install/build libraries/integer-gmp/dist-install/build libraries/ghc-prim/dist-install/build rts/dist/build
+libraries/transformers_dist-install_DEP_LIB_REL_DIRS_SEARCHPATH = libraries/base/dist-install/build:libraries/integer-gmp/dist-install/build:libraries/ghc-prim/dist-install/build:rts/dist/build
+libraries/transformers_dist-install_DEP_LD_OPTS = 
+libraries/transformers_dist-install_BUILD_GHCI_LIB = YES
+
+$(eval $(libraries/transformers_PACKAGE_MAGIC))

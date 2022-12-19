@@ -1,0 +1,12 @@
+# DO NOT DELETE: Beginning of Haskell dependencies
+libraries/ghc-boot-th/dist-boot/build/GHC/ForeignSrcLang/Type.o : libraries/ghc-boot-th/GHC/ForeignSrcLang/Type.hs
+libraries/ghc-boot-th/dist-boot/build/GHC/ForeignSrcLang/Type.o : /usr/lib/ghc/base-4.12.0.0/GHC/Generics.hi
+libraries/ghc-boot-th/dist-boot/build/GHC/ForeignSrcLang/Type.o : /usr/lib/ghc/base-4.12.0.0/Prelude.hi
+libraries/ghc-boot-th/dist-boot/build/GHC/LanguageExtensions/Type.o : libraries/ghc-boot-th/GHC/LanguageExtensions/Type.hs
+libraries/ghc-boot-th/dist-boot/build/GHC/LanguageExtensions/Type.o : /usr/lib/ghc/base-4.12.0.0/GHC/Generics.hi
+libraries/ghc-boot-th/dist-boot/build/GHC/LanguageExtensions/Type.o : /usr/lib/ghc/base-4.12.0.0/Prelude.hi
+libraries/ghc-boot-th/dist-boot/build/GHC/Lexeme.o : libraries/ghc-boot-th/GHC/Lexeme.hs
+libraries/ghc-boot-th/dist-boot/build/GHC/Lexeme.o : /usr/lib/ghc/base-4.12.0.0/Data/Char.hi
+libraries/ghc-boot-th/dist-boot/build/GHC/Lexeme.o : /usr/lib/ghc/base-4.12.0.0/Prelude.hi
+# DO NOT DELETE: End of Haskell dependencies
+libraries/ghc-boot-th_dist-boot_depfile_haskell_EXISTS = YES

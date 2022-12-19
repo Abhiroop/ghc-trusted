@@ -1,0 +1,2 @@
+-lm -lrt -ldl -lpthread
+-L/home/abhir00p/ghc-8.8.2/rts/dist/build

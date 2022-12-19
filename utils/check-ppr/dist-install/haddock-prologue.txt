@@ -1,0 +1,4 @@
+This utility is used to check the consistency of the GHC pretty printer, by
+parsing a file, pretty printing it, and then re-parsing the pretty printed
+version. See @utils/check-ppr/README@ in GHC's source distribution for
+details.

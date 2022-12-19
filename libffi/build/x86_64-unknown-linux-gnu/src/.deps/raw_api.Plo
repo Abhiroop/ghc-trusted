@@ -1,0 +1,10 @@
+src/raw_api.lo: ../src/raw_api.c include/ffi.h include/ffitarget.h \
+ ../include/ffi_common.h fficonfig.h
+
+include/ffi.h:
+
+include/ffitarget.h:
+
+../include/ffi_common.h:
+
+fficonfig.h:

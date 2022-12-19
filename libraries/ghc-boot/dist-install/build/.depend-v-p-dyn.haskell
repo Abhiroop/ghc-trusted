@@ -1,0 +1,106 @@
+# DO NOT DELETE: Beginning of Haskell dependencies
+libraries/ghc-boot/dist-install/build/GHC/ForeignSrcLang.dyn_o libraries/ghc-boot/dist-install/build/GHC/ForeignSrcLang.p_o libraries/ghc-boot/dist-install/build/GHC/ForeignSrcLang.o : libraries/ghc-boot/GHC/ForeignSrcLang.hs
+$(eval $(call hi-rule,libraries/ghc-boot/dist-install/build/GHC/ForeignSrcLang.dyn_hi libraries/ghc-boot/dist-install/build/GHC/ForeignSrcLang.p_hi libraries/ghc-boot/dist-install/build/GHC/ForeignSrcLang.hi  : %hi: %o  libraries/ghc-boot/GHC/ForeignSrcLang.hs))
+libraries/ghc-boot/dist-install/build/GHC/ForeignSrcLang.dyn_o : libraries/ghc-boot-th/dist-install/build/GHC/ForeignSrcLang/Type.dyn_hi
+libraries/ghc-boot/dist-install/build/GHC/ForeignSrcLang.p_o : libraries/ghc-boot-th/dist-install/build/GHC/ForeignSrcLang/Type.p_hi
+libraries/ghc-boot/dist-install/build/GHC/ForeignSrcLang.o : libraries/ghc-boot-th/dist-install/build/GHC/ForeignSrcLang/Type.hi
+libraries/ghc-boot/dist-install/build/GHC/ForeignSrcLang.dyn_o : libraries/binary/dist-install/build/Data/Binary.dyn_hi
+libraries/ghc-boot/dist-install/build/GHC/ForeignSrcLang.p_o : libraries/binary/dist-install/build/Data/Binary.p_hi
+libraries/ghc-boot/dist-install/build/GHC/ForeignSrcLang.o : libraries/binary/dist-install/build/Data/Binary.hi
+libraries/ghc-boot/dist-install/build/GHC/HandleEncoding.dyn_o libraries/ghc-boot/dist-install/build/GHC/HandleEncoding.p_o libraries/ghc-boot/dist-install/build/GHC/HandleEncoding.o : libraries/ghc-boot/GHC/HandleEncoding.hs
+$(eval $(call hi-rule,libraries/ghc-boot/dist-install/build/GHC/HandleEncoding.dyn_hi libraries/ghc-boot/dist-install/build/GHC/HandleEncoding.p_hi libraries/ghc-boot/dist-install/build/GHC/HandleEncoding.hi  : %hi: %o  libraries/ghc-boot/GHC/HandleEncoding.hs))
+libraries/ghc-boot/dist-install/build/GHC/HandleEncoding.dyn_o : libraries/base/dist-install/build/System/IO.dyn_hi
+libraries/ghc-boot/dist-install/build/GHC/HandleEncoding.p_o : libraries/base/dist-install/build/System/IO.p_hi
+libraries/ghc-boot/dist-install/build/GHC/HandleEncoding.o : libraries/base/dist-install/build/System/IO.hi
+libraries/ghc-boot/dist-install/build/GHC/HandleEncoding.dyn_o : libraries/base/dist-install/build/System/Environment.dyn_hi
+libraries/ghc-boot/dist-install/build/GHC/HandleEncoding.p_o : libraries/base/dist-install/build/System/Environment.p_hi
+libraries/ghc-boot/dist-install/build/GHC/HandleEncoding.o : libraries/base/dist-install/build/System/Environment.hi
+libraries/ghc-boot/dist-install/build/GHC/HandleEncoding.dyn_o : libraries/base/dist-install/build/GHC/IO/Encoding.dyn_hi
+libraries/ghc-boot/dist-install/build/GHC/HandleEncoding.p_o : libraries/base/dist-install/build/GHC/IO/Encoding.p_hi
+libraries/ghc-boot/dist-install/build/GHC/HandleEncoding.o : libraries/base/dist-install/build/GHC/IO/Encoding.hi
+libraries/ghc-boot/dist-install/build/GHC/HandleEncoding.dyn_o : libraries/base/dist-install/build/Prelude.dyn_hi
+libraries/ghc-boot/dist-install/build/GHC/HandleEncoding.p_o : libraries/base/dist-install/build/Prelude.p_hi
+libraries/ghc-boot/dist-install/build/GHC/HandleEncoding.o : libraries/base/dist-install/build/Prelude.hi
+libraries/ghc-boot/dist-install/build/GHC/LanguageExtensions.dyn_o libraries/ghc-boot/dist-install/build/GHC/LanguageExtensions.p_o libraries/ghc-boot/dist-install/build/GHC/LanguageExtensions.o : libraries/ghc-boot/GHC/LanguageExtensions.hs
+$(eval $(call hi-rule,libraries/ghc-boot/dist-install/build/GHC/LanguageExtensions.dyn_hi libraries/ghc-boot/dist-install/build/GHC/LanguageExtensions.p_hi libraries/ghc-boot/dist-install/build/GHC/LanguageExtensions.hi  : %hi: %o  libraries/ghc-boot/GHC/LanguageExtensions.hs))
+libraries/ghc-boot/dist-install/build/GHC/LanguageExtensions.dyn_o : libraries/ghc-boot-th/dist-install/build/GHC/LanguageExtensions/Type.dyn_hi
+libraries/ghc-boot/dist-install/build/GHC/LanguageExtensions.p_o : libraries/ghc-boot-th/dist-install/build/GHC/LanguageExtensions/Type.p_hi
+libraries/ghc-boot/dist-install/build/GHC/LanguageExtensions.o : libraries/ghc-boot-th/dist-install/build/GHC/LanguageExtensions/Type.hi
+libraries/ghc-boot/dist-install/build/GHC/LanguageExtensions.dyn_o : libraries/binary/dist-install/build/Data/Binary.dyn_hi
+libraries/ghc-boot/dist-install/build/GHC/LanguageExtensions.p_o : libraries/binary/dist-install/build/Data/Binary.p_hi
+libraries/ghc-boot/dist-install/build/GHC/LanguageExtensions.o : libraries/binary/dist-install/build/Data/Binary.hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.dyn_o libraries/ghc-boot/dist-install/build/GHC/PackageDb.p_o libraries/ghc-boot/dist-install/build/GHC/PackageDb.o : libraries/ghc-boot/GHC/PackageDb.hs
+$(eval $(call hi-rule,libraries/ghc-boot/dist-install/build/GHC/PackageDb.dyn_hi libraries/ghc-boot/dist-install/build/GHC/PackageDb.p_hi libraries/ghc-boot/dist-install/build/GHC/PackageDb.hi  : %hi: %o  libraries/ghc-boot/GHC/PackageDb.hs))
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.dyn_o : libraries/directory/dist-install/build/System/Directory.dyn_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.p_o : libraries/directory/dist-install/build/System/Directory.p_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.o : libraries/directory/dist-install/build/System/Directory.hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.dyn_o : libraries/base/dist-install/build/GHC/IO/Handle/Lock.dyn_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.p_o : libraries/base/dist-install/build/GHC/IO/Handle/Lock.p_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.o : libraries/base/dist-install/build/GHC/IO/Handle/Lock.hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.dyn_o : libraries/base/dist-install/build/GHC/IO/Exception.dyn_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.p_o : libraries/base/dist-install/build/GHC/IO/Exception.p_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.o : libraries/base/dist-install/build/GHC/IO/Exception.hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.dyn_o : libraries/base/dist-install/build/System/IO/Error.dyn_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.p_o : libraries/base/dist-install/build/System/IO/Error.p_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.o : libraries/base/dist-install/build/System/IO/Error.hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.dyn_o : libraries/base/dist-install/build/System/IO.dyn_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.p_o : libraries/base/dist-install/build/System/IO.p_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.o : libraries/base/dist-install/build/System/IO.hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.dyn_o : libraries/filepath/dist-install/build/System/FilePath.dyn_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.p_o : libraries/filepath/dist-install/build/System/FilePath.p_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.o : libraries/filepath/dist-install/build/System/FilePath.hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.dyn_o : libraries/base/dist-install/build/Control/Monad.dyn_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.p_o : libraries/base/dist-install/build/Control/Monad.p_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.o : libraries/base/dist-install/build/Control/Monad.hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.dyn_o : libraries/base/dist-install/build/Control/Exception.dyn_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.p_o : libraries/base/dist-install/build/Control/Exception.p_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.o : libraries/base/dist-install/build/Control/Exception.hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.dyn_o : libraries/binary/dist-install/build/Data/Binary/Get.dyn_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.p_o : libraries/binary/dist-install/build/Data/Binary/Get.p_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.o : libraries/binary/dist-install/build/Data/Binary/Get.hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.dyn_o : libraries/binary/dist-install/build/Data/Binary/Put.dyn_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.p_o : libraries/binary/dist-install/build/Data/Binary/Put.p_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.o : libraries/binary/dist-install/build/Data/Binary/Put.hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.dyn_o : libraries/binary/dist-install/build/Data/Binary.dyn_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.p_o : libraries/binary/dist-install/build/Data/Binary.p_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.o : libraries/binary/dist-install/build/Data/Binary.hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.dyn_o : libraries/base/dist-install/build/Data/Traversable.dyn_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.p_o : libraries/base/dist-install/build/Data/Traversable.p_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.o : libraries/base/dist-install/build/Data/Traversable.hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.dyn_o : libraries/base/dist-install/build/Data/Foldable.dyn_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.p_o : libraries/base/dist-install/build/Data/Foldable.p_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.o : libraries/base/dist-install/build/Data/Foldable.hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.dyn_o : libraries/bytestring/dist-install/build/Data/ByteString/Lazy/Internal.dyn_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.p_o : libraries/bytestring/dist-install/build/Data/ByteString/Lazy/Internal.p_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.o : libraries/bytestring/dist-install/build/Data/ByteString/Lazy/Internal.hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.dyn_o : libraries/bytestring/dist-install/build/Data/ByteString/Lazy.dyn_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.p_o : libraries/bytestring/dist-install/build/Data/ByteString/Lazy.p_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.o : libraries/bytestring/dist-install/build/Data/ByteString/Lazy.hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.dyn_o : libraries/bytestring/dist-install/build/Data/ByteString/Char8.dyn_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.p_o : libraries/bytestring/dist-install/build/Data/ByteString/Char8.p_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.o : libraries/bytestring/dist-install/build/Data/ByteString/Char8.hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.dyn_o : libraries/bytestring/dist-install/build/Data/ByteString.dyn_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.p_o : libraries/bytestring/dist-install/build/Data/ByteString.p_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.o : libraries/bytestring/dist-install/build/Data/ByteString.hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.dyn_o : libraries/base/dist-install/build/Data/Version.dyn_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.p_o : libraries/base/dist-install/build/Data/Version.p_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.o : libraries/base/dist-install/build/Data/Version.hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.dyn_o : libraries/base/dist-install/build/Prelude.dyn_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.p_o : libraries/base/dist-install/build/Prelude.p_hi
+libraries/ghc-boot/dist-install/build/GHC/PackageDb.o : libraries/base/dist-install/build/Prelude.hi
+libraries/ghc-boot/dist-install/build/GHC/Serialized.dyn_o libraries/ghc-boot/dist-install/build/GHC/Serialized.p_o libraries/ghc-boot/dist-install/build/GHC/Serialized.o : libraries/ghc-boot/GHC/Serialized.hs
+$(eval $(call hi-rule,libraries/ghc-boot/dist-install/build/GHC/Serialized.dyn_hi libraries/ghc-boot/dist-install/build/GHC/Serialized.p_hi libraries/ghc-boot/dist-install/build/GHC/Serialized.hi  : %hi: %o  libraries/ghc-boot/GHC/Serialized.hs))
+libraries/ghc-boot/dist-install/build/GHC/Serialized.dyn_o : libraries/base/dist-install/build/Data/Data.dyn_hi
+libraries/ghc-boot/dist-install/build/GHC/Serialized.p_o : libraries/base/dist-install/build/Data/Data.p_hi
+libraries/ghc-boot/dist-install/build/GHC/Serialized.o : libraries/base/dist-install/build/Data/Data.hi
+libraries/ghc-boot/dist-install/build/GHC/Serialized.dyn_o : libraries/base/dist-install/build/Data/Word.dyn_hi
+libraries/ghc-boot/dist-install/build/GHC/Serialized.p_o : libraries/base/dist-install/build/Data/Word.p_hi
+libraries/ghc-boot/dist-install/build/GHC/Serialized.o : libraries/base/dist-install/build/Data/Word.hi
+libraries/ghc-boot/dist-install/build/GHC/Serialized.dyn_o : libraries/base/dist-install/build/Data/Bits.dyn_hi
+libraries/ghc-boot/dist-install/build/GHC/Serialized.p_o : libraries/base/dist-install/build/Data/Bits.p_hi
+libraries/ghc-boot/dist-install/build/GHC/Serialized.o : libraries/base/dist-install/build/Data/Bits.hi
+libraries/ghc-boot/dist-install/build/GHC/Serialized.dyn_o : libraries/base/dist-install/build/Prelude.dyn_hi
+libraries/ghc-boot/dist-install/build/GHC/Serialized.p_o : libraries/base/dist-install/build/Prelude.p_hi
+libraries/ghc-boot/dist-install/build/GHC/Serialized.o : libraries/base/dist-install/build/Prelude.hi
+# DO NOT DELETE: End of Haskell dependencies
+libraries/ghc-boot_dist-install_depfile_haskell_EXISTS = YES

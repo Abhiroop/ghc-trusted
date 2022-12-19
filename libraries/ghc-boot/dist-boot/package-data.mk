@@ -1,0 +1,34 @@
+libraries/ghc-boot_dist-boot_VERSION = 8.8.2
+libraries/ghc-boot_dist-boot_COMPONENT_ID = ghc-boot-8.8.2
+libraries/ghc-boot_dist-boot_MODULES = GHC.LanguageExtensions GHC.PackageDb GHC.Serialized GHC.ForeignSrcLang GHC.HandleEncoding
+libraries/ghc-boot_dist-boot_HIDDEN_MODULES = 
+libraries/ghc-boot_dist-boot_SYNOPSIS =Shared functionality between GHC and its boot libraries
+libraries/ghc-boot_dist-boot_HS_SRC_DIRS = .
+libraries/ghc-boot_dist-boot_DEPS = base-4.12.0.0 binary-0.8.7.0 bytestring-0.10.8.2 directory-1.3.3.0 filepath-1.4.2.1 ghc-boot-th-8.8.2
+libraries/ghc-boot_dist-boot_DEP_IPIDS = base-4.12.0.0 binary-0.8.7.0 bytestring-0.10.8.2 directory-1.3.3.0 filepath-1.4.2.1 ghc-boot-th-8.8.2
+libraries/ghc-boot_dist-boot_DEP_NAMES = base binary bytestring directory filepath ghc-boot-th
+libraries/ghc-boot_dist-boot_DEP_COMPONENT_IDS = base-4.12.0.0 binary-0.8.7.0 bytestring-0.10.8.2 directory-1.3.3.0 filepath-1.4.2.1 ghc-boot-th-8.8.2
+libraries/ghc-boot_dist-boot_TRANSITIVE_DEP_NAMES = ghc-boot-th directory unix time filepath binary containers bytestring deepseq array base integer-gmp ghc-prim rts
+libraries/ghc-boot_dist-boot_TRANSITIVE_DEP_COMPONENT_IDS = ghc-boot-th-8.8.2 directory-1.3.3.0 unix-2.7.2.2 time-1.8.0.2 filepath-1.4.2.1 binary-0.8.7.0 containers-0.6.0.1 bytestring-0.10.8.2 deepseq-1.4.4.0 array-0.5.3.0 base-4.12.0.0 integer-gmp-1.0.2.0 ghc-prim-0.5.3 rts
+libraries/ghc-boot_dist-boot_INCLUDE_DIRS = 
+libraries/ghc-boot_dist-boot_INCLUDES = 
+libraries/ghc-boot_dist-boot_INSTALL_INCLUDES = 
+libraries/ghc-boot_dist-boot_EXTRA_LIBRARIES = 
+libraries/ghc-boot_dist-boot_EXTRA_LIBDIRS = 
+libraries/ghc-boot_dist-boot_S_SRCS = 
+libraries/ghc-boot_dist-boot_C_SRCS  = 
+libraries/ghc-boot_dist-boot_CMM_SRCS = 
+libraries/ghc-boot_dist-boot_DATA_FILES = 
+libraries/ghc-boot_dist-boot_HC_OPTS = -XHaskell2010 -XNoImplicitPrelude
+libraries/ghc-boot_dist-boot_CC_OPTS = 
+libraries/ghc-boot_dist-boot_CPP_OPTS = 
+libraries/ghc-boot_dist-boot_LD_OPTS = 
+libraries/ghc-boot_dist-boot_DEP_INCLUDE_DIRS_SINGLE_QUOTED = '/usr/lib/ghc/unix-2.7.2.2/include' '/usr/lib/ghc/unix-2.7.2.2/dist-install/build/include' '/usr/lib/ghc/time-1.8.0.2/include' '/usr/lib/ghc/time-1.8.0.2/dist-install/build/include' '/usr/lib/ghc/bytestring-0.10.8.2/include' '/usr/lib/ghc/bytestring-0.10.8.2/dist-install/build/include' '/usr/lib/ghc/base-4.12.0.0/include' '/usr/lib/ghc/base-4.12.0.0/dist-install/build/include' '/usr/lib/ghc/integer-gmp-1.0.2.0/include' '/usr/lib/ghc/integer-gmp-1.0.2.0/dist-install/build/include' '/usr/lib/ghc/include' '/usr/lib/ghc/dist-install/build/include'
+libraries/ghc-boot_dist-boot_DEP_CC_OPTS = 
+libraries/ghc-boot_dist-boot_DEP_LIB_DIRS_SEARCHPATH = /home/abhir00p/ghc-8.8.2/libraries/ghc-boot-th/dist-boot/build:/usr/lib/ghc/directory-1.3.3.0:/usr/lib/ghc/unix-2.7.2.2:/usr/lib/ghc/time-1.8.0.2:/usr/lib/ghc/filepath-1.4.2.1:/home/abhir00p/ghc-8.8.2/libraries/binary/dist-boot/build:/usr/lib/ghc/containers-0.6.0.1:/usr/lib/ghc/bytestring-0.10.8.2:/usr/lib/ghc/deepseq-1.4.4.0:/usr/lib/ghc/array-0.5.3.0:/usr/lib/ghc/base-4.12.0.0:/usr/lib/ghc/integer-gmp-1.0.2.0:/usr/lib/ghc/ghc-prim-0.5.3:/usr/lib/ghc/rts
+libraries/ghc-boot_dist-boot_DEP_LIB_REL_DIRS = libraries/ghc-boot-th/dist-install/build libraries/directory/dist-install/build libraries/unix/dist-install/build libraries/time/dist-install/build libraries/filepath/dist-install/build libraries/binary/dist-install/build libraries/containers/containers/dist-install/build libraries/bytestring/dist-install/build libraries/deepseq/dist-install/build libraries/array/dist-install/build libraries/base/dist-install/build libraries/integer-gmp/dist-install/build libraries/ghc-prim/dist-install/build rts/dist/build
+libraries/ghc-boot_dist-boot_DEP_LIB_REL_DIRS_SEARCHPATH = libraries/ghc-boot-th/dist-install/build:libraries/directory/dist-install/build:libraries/unix/dist-install/build:libraries/time/dist-install/build:libraries/filepath/dist-install/build:libraries/binary/dist-install/build:libraries/containers/containers/dist-install/build:libraries/bytestring/dist-install/build:libraries/deepseq/dist-install/build:libraries/array/dist-install/build:libraries/base/dist-install/build:libraries/integer-gmp/dist-install/build:libraries/ghc-prim/dist-install/build:rts/dist/build
+libraries/ghc-boot_dist-boot_DEP_LD_OPTS = 
+libraries/ghc-boot_dist-boot_BUILD_GHCI_LIB = YES
+
+$(eval $(libraries/ghc-boot_PACKAGE_MAGIC))

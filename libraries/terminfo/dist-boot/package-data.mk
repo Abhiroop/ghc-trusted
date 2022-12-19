@@ -1,0 +1,34 @@
+libraries/terminfo_dist-boot_VERSION = 0.4.1.4
+libraries/terminfo_dist-boot_COMPONENT_ID = terminfo-0.4.1.4
+libraries/terminfo_dist-boot_MODULES = System.Console.Terminfo System.Console.Terminfo.Base System.Console.Terminfo.Cursor System.Console.Terminfo.Color System.Console.Terminfo.Edit System.Console.Terminfo.Effects System.Console.Terminfo.Keys
+libraries/terminfo_dist-boot_HIDDEN_MODULES = 
+libraries/terminfo_dist-boot_SYNOPSIS =Haskell bindings to the terminfo library.
+libraries/terminfo_dist-boot_HS_SRC_DIRS = .
+libraries/terminfo_dist-boot_DEPS = base-4.12.0.0
+libraries/terminfo_dist-boot_DEP_IPIDS = base-4.12.0.0
+libraries/terminfo_dist-boot_DEP_NAMES = base
+libraries/terminfo_dist-boot_DEP_COMPONENT_IDS = base-4.12.0.0
+libraries/terminfo_dist-boot_TRANSITIVE_DEP_NAMES = base integer-gmp ghc-prim rts
+libraries/terminfo_dist-boot_TRANSITIVE_DEP_COMPONENT_IDS = base-4.12.0.0 integer-gmp-1.0.2.0 ghc-prim-0.5.3 rts
+libraries/terminfo_dist-boot_INCLUDE_DIRS = 
+libraries/terminfo_dist-boot_INCLUDES = 
+libraries/terminfo_dist-boot_INSTALL_INCLUDES = 
+libraries/terminfo_dist-boot_EXTRA_LIBRARIES = tinfo
+libraries/terminfo_dist-boot_EXTRA_LIBDIRS = 
+libraries/terminfo_dist-boot_S_SRCS = 
+libraries/terminfo_dist-boot_C_SRCS  = 
+libraries/terminfo_dist-boot_CMM_SRCS = 
+libraries/terminfo_dist-boot_DATA_FILES = 
+libraries/terminfo_dist-boot_HC_OPTS = -Wall -XHaskell2010
+libraries/terminfo_dist-boot_CC_OPTS = 
+libraries/terminfo_dist-boot_CPP_OPTS = 
+libraries/terminfo_dist-boot_LD_OPTS = 
+libraries/terminfo_dist-boot_DEP_INCLUDE_DIRS_SINGLE_QUOTED = '/usr/lib/ghc/base-4.12.0.0/include' '/usr/lib/ghc/base-4.12.0.0/dist-install/build/include' '/usr/lib/ghc/integer-gmp-1.0.2.0/include' '/usr/lib/ghc/integer-gmp-1.0.2.0/dist-install/build/include' '/usr/lib/ghc/include' '/usr/lib/ghc/dist-install/build/include'
+libraries/terminfo_dist-boot_DEP_CC_OPTS = 
+libraries/terminfo_dist-boot_DEP_LIB_DIRS_SEARCHPATH = /usr/lib/ghc/base-4.12.0.0:/usr/lib/ghc/integer-gmp-1.0.2.0:/usr/lib/ghc/ghc-prim-0.5.3:/usr/lib/ghc/rts
+libraries/terminfo_dist-boot_DEP_LIB_REL_DIRS = libraries/base/dist-install/build libraries/integer-gmp/dist-install/build libraries/ghc-prim/dist-install/build rts/dist/build
+libraries/terminfo_dist-boot_DEP_LIB_REL_DIRS_SEARCHPATH = libraries/base/dist-install/build:libraries/integer-gmp/dist-install/build:libraries/ghc-prim/dist-install/build:rts/dist/build
+libraries/terminfo_dist-boot_DEP_LD_OPTS = 
+libraries/terminfo_dist-boot_BUILD_GHCI_LIB = YES
+
+$(eval $(libraries/terminfo_PACKAGE_MAGIC))
