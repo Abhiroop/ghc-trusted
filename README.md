@@ -1,7 +1,7 @@
 GHC TRUSTED
 ===========
 
-This is a trimmed runtime for GHC. I am trying to remove some POSIX system calls that are very difficult to port (like `madvise`). This is WIP.
+This is a trimmed runtime for GHC 8.8.2. I am trying to remove some POSIX system calls that are very difficult to port (like `madvise`). This is WIP.
 
 Diff at the time of the initial commit - [diff](tillnow.diff)
 
