@@ -1,0 +1,149 @@
+diff -bur foo/ghc-8.8.2/rts/Timer.c ghc-8.8.2/rts/Timer.c
+--- foo/ghc-8.8.2/rts/Timer.c	2020-01-12 22:14:36.000000000 +0000
++++ ghc-8.8.2/rts/Timer.c	2022-12-19 20:38:53.126753649 +0000
+@@ -106,37 +106,41 @@
+ void
+ initTimer(void)
+ {
++	/*
+     initProfTimer();
+     if (RtsFlags.MiscFlags.tickInterval != 0) {
+         initTicker(RtsFlags.MiscFlags.tickInterval, handle_tick);
+     }
+     timer_disabled = 1;
++    */
+ }
+ 
+ void
+ startTimer(void)
+ {
++	/*
+     if (atomic_dec(&timer_disabled) == 0) {
+         if (RtsFlags.MiscFlags.tickInterval != 0) {
+             startTicker();
+         }
+     }
++    */
+ }
+ 
+ void
+ stopTimer(void)
+-{
++{/*
+     if (atomic_inc(&timer_disabled, 1) == 1) {
+         if (RtsFlags.MiscFlags.tickInterval != 0) {
+             stopTicker();
+         }
+-    }
++    }*/
+ }
+ 
+ void
+ exitTimer (bool wait)
+-{
++{/*
+     if (RtsFlags.MiscFlags.tickInterval != 0) {
+         exitTicker(wait);
+-    }
++    }*/
+ }
+Only in ghc-8.8.2/rts/: dist
+Only in ghc-8.8.2/rts/: fs.c
+Only in ghc-8.8.2/rts/: fs.h
+diff -bur foo/ghc-8.8.2/rts/posix/GetTime.c ghc-8.8.2/rts/posix/GetTime.c
+--- foo/ghc-8.8.2/rts/posix/GetTime.c	2020-01-12 22:14:36.000000000 +0000
++++ ghc-8.8.2/rts/posix/GetTime.c	2022-12-19 21:08:43.621984070 +0000
+@@ -51,7 +51,8 @@
+        defined(_SC_CPUTIME)             &&  \
+        defined(CLOCK_PROCESS_CPUTIME_ID) &&  \
+        defined(HAVE_SYSCONF)
+-    static int checked_sysconf = 0;
++	/*
++    static int checked_sysconf = 1;
+     static int sysconf_result = 0;
+ 
+     if (!checked_sysconf) {
+@@ -68,7 +69,7 @@
+             sysErrorBelch("clock_gettime");
+             stg_exit(EXIT_FAILURE);
+         }
+-    }
++    }*/
+ #endif
+ 
+     // fallback to getrusage
+@@ -81,6 +82,7 @@
+ 
+ StgWord64 getMonotonicNSec(void)
+ {
++	/*
+ #if defined(HAVE_CLOCK_GETTIME)
+     struct timespec ts;
+     int res;
+@@ -99,6 +101,7 @@
+     return (time * timer_scaling_factor_numer) / timer_scaling_factor_denom;
+ 
+ #else // use gettimeofday()
++*/
+ 
+     struct timeval tv;
+ 
+@@ -106,7 +109,7 @@
+     return (StgWord64)tv.tv_sec * 1000000000 +
+            (StgWord64)tv.tv_usec * 1000;
+ 
+-#endif
++ // #endif
+ }
+ 
+ Time getProcessElapsedTime(void)
+diff -bur foo/ghc-8.8.2/rts/posix/OSMem.c ghc-8.8.2/rts/posix/OSMem.c
+--- foo/ghc-8.8.2/rts/posix/OSMem.c	2020-01-12 22:14:36.000000000 +0000
++++ ghc-8.8.2/rts/posix/OSMem.c	2022-12-19 12:57:22.029160976 +0000
+@@ -253,7 +253,7 @@
+ 
+     // Map in committed pages rather than take a fault for each chunk.
+     // Also arrange to include them in core-dump files.
+-    post_mmap_madvise(operation, size, ret);
++    //post_mmap_madvise(operation, size, ret);
+ 
+     return ret;
+ }
+@@ -623,22 +623,22 @@
+     // will work as they both allow the system to free anonymous pages.
+     // It is important that we try both methods as the kernel which we were
+     // built on may differ from the kernel we are now running on.
+-    r = madvise(at, size, MADV_FREE);
+-    if(r < 0) {
+-        if (errno == EINVAL) {
+-            // Perhaps the system doesn't support MADV_FREE; fall-through and
+-            // try MADV_DONTNEED.
+-        } else {
+-            sysErrorBelch("unable to decommit memory");
+-        }
+-    } else {
+-        return;
+-    }
++    //r = madvise(at, size, MADV_FREE);
++    //if(r < 0) {
++    //    if (errno == EINVAL) {
++    //        // Perhaps the system doesn't support MADV_FREE; fall-through and
++    //        // try MADV_DONTNEED.
++    //    } else {
++    //        sysErrorBelch("unable to decommit memory");
++    //    }
++    // } else {
++    //    return;
++    // }
+ #endif
+ 
+-    r = madvise(at, size, MADV_DONTNEED);
+-    if(r < 0)
+-        sysErrorBelch("unable to decommit memory");
++    // r = madvise(at, size, MADV_DONTNEED);
++    //if(r < 0)
++    //    sysErrorBelch("unable to decommit memory");
+ }
+ 
+ void osReleaseHeapMemory(void)
+Only in ghc-8.8.2/rts/: rts.cabal
