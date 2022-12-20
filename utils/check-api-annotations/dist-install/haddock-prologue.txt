@@ -1,4 +1,0 @@
-This utility is used to check the consistency between GHC's syntax tree
-and API annotations used to track token-level details of the original
-source file. See @utils/check-api-annotations/README@ in GHC's source
-distribution for details.

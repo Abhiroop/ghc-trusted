@@ -1,4 +1,0 @@
-This script is responsible for generating the @AutoApply.cmm@ source
-file during the build process of GHC's runtime system. This file
-defines the standard closures used to represent application of functions
-of various arities.

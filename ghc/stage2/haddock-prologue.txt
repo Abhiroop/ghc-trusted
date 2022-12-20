@@ -1,2 +1,0 @@
-This package contains the @ghc@ executable, the user facing front-end
-to the Glasgow Haskell Compiler.

@@ -1,3 +1,0 @@
-GHC maintains a database of known packages. This tools allows tools
-and users to query and modify this database. See @ghc-pkg --help@ for
-usage information.

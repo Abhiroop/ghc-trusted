@@ -1,3 +1,0 @@
-This utility is responsible for generating a number of C header files
-needed during the GHC build process. See @includes/ghc.mk@ in the GHC
-build system for details.

@@ -1,2 +1,0 @@
-A small utility for comparing the sizes of files used by
-the GHC build system.
