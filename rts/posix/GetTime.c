@@ -105,7 +105,10 @@ StgWord64 getMonotonicNSec(void)
 
     struct timeval tv;
 
-    gettimeofday(&tv, (struct timezone *) NULL);
+    //gettimeofday(&tv, (struct timezone *) NULL);
+    //set to the time of making this commit
+    tv.tv_sec = 1671489520;
+    tv.tv_usec = 709243;
     return (StgWord64)tv.tv_sec * 1000000000 +
            (StgWord64)tv.tv_usec * 1000;
 
@@ -178,7 +181,11 @@ void getUnixEpochTime(StgWord64 *sec, StgWord32 *nsec)
 {
 #if defined(HAVE_GETTIMEOFDAY)
     struct timeval tv;
-    gettimeofday(&tv, (struct timezone *) NULL);
+    //gettimeofday(&tv, (struct timezone *) NULL);
+    // set to the time of the commit
+    tv.tv_sec = 1671489520;
+    tv.tv_usec = 709243;
+
     *sec  = tv.tv_sec;
     *nsec = tv.tv_usec * 1000;
 #else
