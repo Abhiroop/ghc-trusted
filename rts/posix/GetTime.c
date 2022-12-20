@@ -75,7 +75,10 @@ Time getProcessCPUTime(void)
     // fallback to getrusage
     {
         struct rusage t;
-        getrusage(RUSAGE_SELF, &t);
+        //getrusage(RUSAGE_SELF, &t);
+	//set to arbitrary values
+	t.ru_utime.tv_sec = 0;
+	t.ru_utime.tv_usec = 1128;
         return SecondsToTime(t.ru_utime.tv_sec) + USToTime(t.ru_utime.tv_usec);
     }
 }
