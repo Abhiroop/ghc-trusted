@@ -3,6 +3,8 @@ GHC TRUSTED
 
 This is a trimmed runtime for GHC 8.8.2. I am trying to remove some POSIX system calls that are very difficult to port (like `madvise`). This is WIP.
 
+Gramine's `select` and `poll` implementation are still undergoing some cleanups (https://github.com/gramineproject/gramine/pull/1067). The original `fdReady` function can perhaps run with a patched `select` and `poll`. Also keep an eye on the `awaitEvent` function in [rts/posix/Select.c](rts/posix/Select.c) that internally uses `select`. The `select` calls from glibc internally makes the [pselect6](https://linux.die.net/man/2/pselect6) system call.
+
 Diff at the time of the initial commit - [diff](tillnow.diff)
 
 
