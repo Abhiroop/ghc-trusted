@@ -1,3 +1,5 @@
 inplace/
 compiler/stage1/
 compiler/stage2/
+rts/dist/build/
+libraries/
